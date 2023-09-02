@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Prism;
+    src: url(TiltPrism-Regular-VariableFont_XROT,YROT.ttf);
+  }
+  
+  .aboutheader{
+    font: Prism;
+    background-image:url('gold.jpg');
+    background-position: center;
+    align-content: center;
+    text-align: center;
+    min-height: 5rem;
+  }
+  
+  .aboutheader > div {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .aboutfooter{
+    font: Prism;
+    background-image:url('gold.jpg');
+    background-position: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .homeheader{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+  
+  .aboutheader{
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+  
+  .headfoottext{
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    background: black;
+    border-style: inset;
+    border-color: silver
+  }
+  
+  .blogtext{
+    color: whitesmoke;
+  }
+  
+  .form{
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    padding-top: 1%;
+    border-style: outset;
+    border-color: silver;
+  }
+  
+  .titletext{
+    color: goldenrod;
+    text-align: center;
+  }
+  
+  .dates{
+    color: blue;
+  }
+  
+  .main{
+    background-image: url('blackrose.jpg');
+    background-position: center;
+    max-width: 100%;
+  }
+  
+  .flex-container {
+    display: flex;
+    background-color: black;
+  }
+  
+  .pictures {
+    display: flex;
+    margin: 1%;
+    padding: 10px;
+    max-width: 100%;
+  }
+  
+  .pictures > div {
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  @keyframes tbox {
+    0%   {background-color: white;}
+    50%  {background-color: whitesmoke;}
+    100%  {background-color: silver;}
+  }
+  
+  .textbox {
+    max-width: 90%;
+    border: 15px solid gold;
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    animation-name: tbox;
+    animation-duration: 5s;
+  }
+  
+  .navbar{
+    background-color: silver;
+    text-align: center;
+  }
+  
+  .navbar-logo{
+    width: 5rem;
+    height: auto;
+  }
+  
+  .nav-item{
+    background-color: black;
+  }
+  
+  .ptext{
+    color: white;
+  }
+  
+  a:link {
+    color:silver;
+  }
+  
+  a:visited {
+    color: gold;
+  }
+  
+  a:hover {
+    color:white;
+  }
+  
+  a:active {
+    color: blue;
+  }
